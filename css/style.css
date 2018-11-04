@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+    color: gray;
+}
+.header{
+    background-color: #16181b;
+    width: 100%;
+}
+
+.white-header-font{
+    color: white;
+    font-size: 1.2em;
+}
+
+.user-pic{
+    text-align: right;
+    margin-top: 20px;
+    font-size: 3em;
+    float: right;
+    margin-right: 20px;
+}
+
+.user-info{
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.user-balance{
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.user-data{
+    display: inline-block;
+    float: right;
+}
+
+.bt-logo{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+text-align: center;
+    font-size: 0.9em;
+}
+
+.content-wrapper{
+    background: white;
+}
+
+.content{
+    /*height: 500px;*/
+    /*width: 100%;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.frame-title{
+    color: black;
+    font-size: 1.3em;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.frame-subtitle{
+    color: black;
+    font-size: 1.1em;
+    width: 100%;
+    /*padding-bottom: 15px;*/
+}
+
+.bottom-menu{
+    background: #1b1e21;
+    height: 50px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.bottom-menu-items{
+    float: left;
+    display: inline;
+    padding-top: 4px;
+}
+
+.bottom-menu-items a{
+    color: #5a6268;
+    margin-right: 10px;
+}
+
+.bottom-menu-socials{
+    float: right;
+    display: inline;
+
+}
+
+.bottom-menu-socials a{
+    color: #5a6268;
+    margin-right: 10px;
+    font-size: 1.9em;
+}
+
+.main-field{
+    background-color: #f6f6f6;
+    border: solid #aaaaaa 1px;
+}
+.rate-field{
+    /*background-color: #f6f6f6;*/
+    border: solid #aaaaaa 1px;
+}
+
+.agreement{
+    margin-top: 25px;
+}
+
+.bet-button{
+    float: right;
+}
+
+.bet-button-container{
+    margin-top: 20px;
+    border-top: solid #aaaaaa 1px;
+    padding-top: 25px;
+}
+
+.bet-choicer{
+    color: black;
+}
+
+.currency-symbol{
+    font-size: 3em;
+}
+
+.rate-field-delimiter{
+    border-top: solid #aaaaaa 1px;
+}
+
+.currency-code{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.currency-rate{
+    font-size: 0.8em;
+}
+
+.message-container{
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 30px;
+}
+
+#bet_frame, #waiting_frame, #success_frame, #fail_frame, #error_frame{
+    display: none;
+}
+
+.status-symbol{
+    font-size: 4.5em;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.sub-bet-summ{
+    font-size: 0.7em;
+}
